@@ -3,13 +3,16 @@ POST http://localhost:8080/product/create
 Content-Type: application/json
 
 {
-  "id": 1,
+  "id": 3,
   "name": "Phone",
   "price": 2.00
 }
 
 ###
 GET http://localhost:8080/product/get-all
+
+###
+GET http://localhost:8080/product/get-id?id=1
 
 ###
 PUT http://localhost:8080/product/update-product/1/Laptop/3.00
